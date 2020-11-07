@@ -9,7 +9,7 @@
     'category': 'Tools',
     'application': True,
     'maintainer': 'Hadoopt Technologies Private Limited',
-    'license': 'AGPL-3',
+    'license': 'LGPL-3',
     'summary': 'Session timeout based on number of sessions/user',
     'description':
         """
