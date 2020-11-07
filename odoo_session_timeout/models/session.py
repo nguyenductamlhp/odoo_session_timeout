@@ -14,7 +14,7 @@ class Session(models.Model):
 class Users(models.Model):
     _inherit = "res.users"
 
-    @api.model
+    @api.one
     def _load_default_user(self):
         return [self.env.user.id]
 
